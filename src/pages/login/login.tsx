@@ -17,27 +17,27 @@ function Login() {
                             <div className="text-wrap p-4 p-lg-5 text-center d-flex align-items-center order-md-last">
                             
                                 <div className="text w-100">
-                                   <h2>Welcome to login</h2>
+                                   <h2>BIENVENUE</h2>
                                 </div>
                             </div>
                             <div className="login-wrap p-4 p-lg-5">
                                 <div className="d-flex">
                                     <div className="w-100">
-                                        <h3 className="mb-4">Sign In</h3>
+                                        <h3 className="mb-4">Connexion</h3>
                                     </div>
                                             
                                 </div>
                                 <form action="#" className="signin-form">
                                     <div className="form-group mb-3">
-                                        <label className="label" >Username</label>
-                                        <input type="text" className="form-control" placeholder="Username" required/>
+                                        <label className="label" >NOM D'UTILISATEUR</label>
+                                        <input type="text" className="form-control" placeholder="Nom d'utilisateur" required/>
                                     </div>
                                     <div className="form-group mb-3">
-                                        <label className="label" >Password</label>
-                                    <input type="password" className="form-control" placeholder="Password" required/>
+                                        <label className="label" >MOT DE PASSE</label>
+                                    <input type="password" className="form-control" placeholder="Mot de passe" required/>
                                     </div>
                                     <div className="form-group">
-                                        <button type="submit" className="form-control btn btn-primary submit px-3">Sign In</button>
+                                        <button type="submit" className="form-control btn btn-primary submit px-3">Se connecter</button>
                                     </div>
                                     
                     </form>
