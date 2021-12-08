@@ -29,8 +29,8 @@ function Login() {
                                 </div>
                                 <form action="#" className="signin-form">
                                     <div className="form-group mb-3">
-                                        <label className="label" >NOM D'UTILISATEUR</label>
-                                        <input type="text" className="form-control" placeholder="Nom d'utilisateur" required/>
+                                        <label className="label" >ADRESSE E-MAIL</label>
+                                        <input type="text" className="form-control" placeholder="Adresse e-mail" required/>
                                     </div>
                                     <div className="form-group mb-3">
                                         <label className="label" >MOT DE PASSE</label>
