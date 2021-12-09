@@ -29,11 +29,11 @@ function Login() {
                                 </div>
                                 <form action="#" className="signin-form">
                                     <div className="form-group mb-3">
-                                        <label className="label" >ADRESSE E-MAIL</label>
+                                        <h4 className="label" >ADRESSE E-MAIL</h4>
                                         <input type="text" className="form-control" placeholder="Adresse e-mail" required/>
                                     </div>
                                     <div className="form-group mb-3">
-                                        <label className="label" >MOT DE PASSE</label>
+                                        <h5 className="label" >MOT DE PASSE</h5>
                                     <input type="password" className="form-control" placeholder="Mot de passe" required/>
                                     </div>
                                     <div className="form-group">
