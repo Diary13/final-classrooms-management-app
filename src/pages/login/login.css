@@ -8212,14 +8212,14 @@ h1, h2, h3, h4, h5,
   background: -o-linear-gradient(315deg, #C1EDEB 0%, #A4E1DF 100%);
   background: linear-gradient(135deg, #C1EDEB 0%, #A4E1DF 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#C1EDEB', endColorstr='#A4E1DF', GradientType=1 );
-  color: #fff; }
+  color: #faffff; }
   .text-wrap .text h2 {
     font-weight: 900;
-    color: #fff; }
+    color: #faffff; }
 
 .login-wrap {
   position: relative;
-  background: #fff; }
+  background: #faffff; }
   .login-wrap h3 {
     font-weight: 300; }
 
