@@ -1,9 +1,9 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import Actualite from './pages/Actualite/actualite';
 import Login from './pages/login/login';
 import { BrowserRouter as Router, Routes, Route, Navigate  } from 'react-router-dom';
+import Actualite from './pages/Actualite/actualite';
 
 function App() {
   return (
