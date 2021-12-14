@@ -1,4 +1,4 @@
-import React from 'react';
+//import React, { useState } from 'react';
 import logo from './logo.svg';
 import './login.css';
 import { ClienService } from '../../services/client.service';
@@ -11,8 +11,6 @@ function handleSubmit(event: React.FormEvent<HTMLFormElement>) {
     let client = new ClienService();
     console.log(mail);
     console.log(password);
-
-
     client.login({ mail: mail, password: password });
 }
 
@@ -21,7 +19,6 @@ function Login() {
         <div className="Login">
             <section className="ftco-section">
                 <div className="container">
-
                     <div className="row justify-content-center">
                         <div className="col-md-12 col-lg-10">
                             <div className="wrap d-md-flex">
@@ -36,7 +33,6 @@ function Login() {
                                         <div className="w-100">
                                             <h3 className="mb-4">Connexion</h3>
                                         </div>
-
                                     </div>
                                     <form action="" onSubmit={handleSubmit} className="signin-form">
                                         <div className="form-group mb-3">
