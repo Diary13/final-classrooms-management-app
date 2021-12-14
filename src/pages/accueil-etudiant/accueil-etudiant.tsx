@@ -10,7 +10,7 @@ import ReactDOM from "react-dom";
 
 function OpenAndClose() {
     const containerMenu = document.querySelector('.container-menu');
-    const btnMenu = document.querySelector('.btn-menu');
+    //const btnMenu = document.querySelector('.btn-menu');
     // btnMenu?.addEventListener('click', () => {
     //     containerMenu?.classList.toggle('active');
     // });

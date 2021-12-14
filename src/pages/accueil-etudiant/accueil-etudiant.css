@@ -88,10 +88,10 @@ opacity:1;
 }
 .icone{
     width: 55px;
-    transition: all 0.1s ease-in-out;
+    transition: all 0.2s ease-in-out;
 }
 .icone:hover{
-    width: 65px;
+    width: 70px;
     transition: all 0.2s ease-in-out;
 }
 .blob{
@@ -135,7 +135,7 @@ opacity:1;
     
 }
 .blob-5{
-    transition: all 0.2s 0.3s ease-in-out;
+    transition: all 0.2s 0.5 ease-in-out;
     
 }
 
