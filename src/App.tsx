@@ -2,7 +2,7 @@ import React from 'react';
 import './App.css';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Login from './pages/login/login';
-import Accueil from './pages/accueil-etudiant/accueil-etudiant';
+import Accueil from './pages/client/home/HomeClient';
 
 // const Home = () => {
 //   return (<div><h1>Bienvenue dans notre site</h1></div>);

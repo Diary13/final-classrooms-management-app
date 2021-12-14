@@ -111,7 +111,7 @@ opacity:1;
 }
 .Accueil{
     /* background: linear-gradient(rgba(116, 131, 100,0.1)),url("./image.jpg"); */
-    background:linear-gradient(to bottom right, rgba(38,106,103,0.7),rgba(164,225,223,0.5)),url("./image.jpg");
+    background:linear-gradient(to bottom right, rgba(38,106,103,0.7),rgba(164,225,223,0.5)),url("../../../assets/images/image.jpg");
     min-height:100vh;
     background-size: cover;
     
