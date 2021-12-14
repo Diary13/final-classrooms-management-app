@@ -15,7 +15,7 @@ function OpenAndClose() {
 }
 
 
-class Accueil extends React.Component {
+class HomeClient extends React.Component {
     render() {
         return (<div className="Accueil">
             <section >
@@ -60,4 +60,4 @@ class Accueil extends React.Component {
     }
 }
 
-export default Accueil;
+export default HomeClient;

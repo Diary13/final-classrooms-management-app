@@ -1,9 +1,8 @@
 import React from 'react';
 import './App.css';
-
 import { BrowserRouter as Router, Routes, Navigate, Route } from 'react-router-dom';
 import Login from './pages/login/login';
-import { HomeClient } from './pages/client/home/HomeClient';
+import HomeClient from './pages/client/home/HomeClient';
 
 function App() {
   return (
