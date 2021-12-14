@@ -1,22 +1,19 @@
 import React from 'react';
 import './App.css';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Login from './pages/login/login';
-import Accueil from './pages/client/home/HomeClient';
 
-// const Home = () => {
-//   return (<div><h1>Bienvenue dans notre site</h1></div>);
-// }
+import { BrowserRouter as Router, Routes, Navigate, Route } from 'react-router-dom';
+import Login from './pages/login/login';
+import { HomeClient } from './pages/client/home/HomeClient';
+
 function App() {
   return (
     <Router>
       <div className="App">
         {/* <img src={logo} alt="logo" /> */}
         <Routes>
-          {/* <Route path="/" element={<Home />} /> */}
           <Route path="/login" element={<Login />} />
-          <Route path="/client/accueil" element={<Accueil />} />
-          <Route path="/admin/accueil" element={<Accueil />} />
+          <Route path="/client/home" element={<HomeClient />} />
+          <Route path="*" element={<Navigate to="/login" />} />
         </Routes>
       </div>
     </Router >
