@@ -31,68 +31,60 @@ const actualite = () => {
             {/* //Actualité div */}
             <div className="actualite-div">
                 <div className="actualite">
-                    <div className="categories-grid wow fadeInLeft">
-                        <nav className="categories text-center">
-                            <ul className="actualite_filter">
-                                <li><a href="" className="active" data-filter="*">Tous</a></li>
-                                <li><a href="" data-filter=".photography">Actu 1</a></li>
-                                <li><a href="" data-filter=".logo">Actu 2</a></li>
-                                <li><a href="" data-filter=".graphics">Actu 3</a></li>
-                                <li><a href="" data-filter=".ads">Actu 4</a></li>
-                                <li><a href="" data-filter=".fashion">Actu 5x</a></li>
-                            </ul>
-                        </nav>
-                    </div>
+                   <div className="row">
+                        <div className="col-lg-12">
+                            <div className="actuality-filter">
+                                <button className="active" type="button" data-filter='all'>Tous</button>
+                                <button type="button" data-filter='.annonce'>Annonces</button>
+                                <button type="button" data-filter='.event'>Evenements</button>
+                            </div>
+                        </div>
+                   </div>                  
                 </div>
             </div>
+
+            {/* //Liste Actualité div */}
+            
+
 
             {/* //Section Actualité div */}
             <section className="section" id="actualites">
                 <div className="container-fluid">
                     <div className="row">
 
-                        <div className="col-lg-4 col-sm-6 col-md-6 mb-3">
+                        <div className="col-lg-4 col-sm-6 col-md-6 mb-3 event" data-category="event">
                             <div className="web-actuality-block">
-                                <h3>Lunch Box</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-                                    Eveniet numquam harum quos minus?</p>
+                                <h3>Evenement 1</h3>
                             </div>
                         </div>
 
-                        <div className="col-lg-4 col-sm-6 col-md-6 mb-3">
+                        <div className="col-lg-4 col-sm-6 col-md-6 mb-3 annonce" data-category="annonce">
                             <div className="web-actuality-block">
-                                <h3>Lunch Box</h3>
-                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
-                                    Minus exercitationem aspernatur corporis quia itaque eveniet ut incidunt quae,
-                                     deserunt quo id ex dicta aliquam.</p>
+                                <h3>Annonce 1</h3>
                             </div>
                         </div>
 
-                        <div className="col-lg-4 col-sm-6 col-md-6 mb-3">
+                        <div className="col-lg-4 col-sm-6 col-md-6 mb-3 event" data-category="event">
                             <div className="web-actuality-block">
-                                <h3>Lunch Box</h3>
-                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                <h3>Evenement 2</h3>
                             </div>
                         </div>
                         
-                        <div className="col-lg-4 col-sm-6 col-md-6 mb-3">
+                        <div className="col-lg-4 col-sm-6 col-md-6 mb-3 annonce" data-category="annonce">
                             <div className="web-actuality-block">
-                                <h3>Lunch Box</h3>
-                                <p>Menu du Jour</p>
+                                <h3>Annonce 3</h3>
                             </div>
                         </div>
 
-                        <div className="col-lg-4 col-sm-6 col-md-6 mb-3">
+                        <div className="col-lg-4 col-sm-6 col-md-6 mb-3 event" data-category="event">
                             <div className="web-actuality-block">
-                                <h3>Lunch Box</h3>
-                                <p>Menu du Jour</p>
+                                <h3>Evenement 3</h3>
                             </div>
                         </div>
 
-                        <div className="col-lg-4 col-sm-6 col-md-6 mb-3">
+                        <div className="col-lg-4 col-sm-6 col-md-6 mb-3 annonce"  data-category="annonce">
                             <div className="web-actuality-block">
-                                <h3>Lunch Box</h3>
-                                <p>Menu du Jour</p>
+                                <h3>Annonce 4</h3>
                             </div>
                         </div>
                         

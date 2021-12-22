@@ -94,7 +94,7 @@
 
 .top-bar {
     color: #333;
-    padding: 150px 0 150px;
+    padding: 50px 0 50px;
     background: -webkit-linear-gradient( rgba(255, 255, 255, .8), rgba(255, 255, 255, .8));
     background: linear-gradient( rgba(255, 255, 255, .8), rgba(255, 255, 255, .8));
     background-size: cover;
@@ -265,12 +265,98 @@
     padding-top: 55px;
 }
 
+/* List Actualite CSS
+==================================================*/
+.actuality-filter {
+    margin-bottom: 40px;
+    text-align: center;
+  }
+  
+  .actuality-filter button {
+    font-weight: 500;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 14px;
+    margin: 0 10px;
+    padding: 8px 5px;
+    font-weight: 600;
+    text-transform: uppercase;
+    border: none;
+    color: #777;
+    outline: none;
+    background: none;
+  }
+  
+  .actuality-filter button:hover {
+    border-bottom: 2px solid #f0326b;
+    color: #000;
+  }
+  
+  .actuality-filter button.active {
+    border-bottom: 2px solid #f0326b;
+    color: #000;
+  }
+  
+  .actuality-block {
+    position: relative;
+    transition: .3s all;
+    overflow: hidden;
+  }
+  
+  .actuality-block:before {
+    content: '';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(240, 50, 107, 0.9);
+    transition: .3s all;
+  }
+  
+  .actuality-block:hover:before {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
+  }
+  
+  .actuality-block:hover .caption h4 {
+    -webkit-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
+  }
+  
+  .actuality-block:hover .caption {
+    opacity: 1;
+  }
+
+  .actuality-block .caption {
+    position: absolute;
+    bottom: 10%;
+    left: 10%;
+    opacity: 0;
+    z-index: 9;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .actuality-block .caption h1 {
+    font-size: 20px;
+    font-weight: 700;
+  }
+  
+  .actuality-block .caption h1 a {
+    color: #fff;
+  }
+  
+ 
+  
 
 /* Section Actualite CSS
 ==================================================*/
 #actualites {
     position: relative;
     background-size: cover;
+    background-image: linear-gradient(30deg, rgba(121, 110, 255, 0.95) 0%, rgba(33, 200, 122, 0.95) 100%);
     padding:10% 0% ;
   }
   
@@ -281,7 +367,6 @@
     top: 0px;
     width: 100%;
     height: 100%;
-    background-image: linear-gradient(30deg, rgba(121, 110, 255, 0.95) 0%, rgba(33, 200, 122, 0.95) 100%);
   }
   
   .web-actuality-block {
