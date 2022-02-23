@@ -7,7 +7,7 @@ export class ClienService {
     login(data: LoginDto) {
         axios({
             method: 'post',
-            url: environment.URL + 'personals/login',
+            url: environment.URL + 'api/personals/login',
             data: data
         }).then((res) => {
             if (res) {
