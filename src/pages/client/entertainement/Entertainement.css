@@ -1,0 +1,17 @@
+h1{
+    color:black;
+    padding-bottom: 2rem;
+    position: absolute;
+    top:25px;
+    right: 10px;
+    bottom: 25px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    
+}
+body{
+    /* background: linear-gradient(#e5e5e5,#ffff,#e5e5e5,rgba(0,0,0,0.0253))!important; */
+    position: relative;
+
+}

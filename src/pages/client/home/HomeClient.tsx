@@ -5,6 +5,7 @@ import Divertissement from '../../../assets/logo/Divertissement.svg';
 import Demande from '../../../assets/logo/Demande.svg';
 import Salle from '../../../assets/logo/Salle.svg';
 import Emploie_du_temps from '../../../assets/logo/Emploie-du-temps.svg';
+import { ClienService } from '../../../services/client.service';
 import { textChangeRangeIsUnchanged } from "typescript";
 import ReactDOM from "react-dom";
 
@@ -13,7 +14,10 @@ function OpenAndClose() {
     containerMenu?.classList.toggle('active');
 
 }
-
+function switchToDivertissement() {
+    let client = new ClienService();
+    client.divertissement();
+}
 
 class HomeClient extends React.Component {
     render() {
@@ -32,7 +36,7 @@ class HomeClient extends React.Component {
                     </div>
                     <div className="blob blob-2">
                         <figure>
-                            <img src={Divertissement} alt="Divertissement" className="icone" />
+                            <img src={Divertissement} alt="Divertissement" className="icone" onClick={switchToDivertissement} />
                             <figcaption>Divertissement</figcaption>
                         </figure>
                     </div>

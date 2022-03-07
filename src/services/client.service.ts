@@ -16,4 +16,7 @@ export class ClienService {
             }
         })
     }
+    divertissement() {
+        window.location.assign('/client/divertissement');
+    }
 }

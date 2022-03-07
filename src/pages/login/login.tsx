@@ -23,7 +23,6 @@ function Login() {
                         <div className="col-md-12 col-lg-10">
                             <div className="wrap d-md-flex">
                                 <div className="text-wrap p-4 p-lg-5 text-center d-flex align-items-center order-md-last">
-
                                     <div className="text w-100">
                                         <h2>BIENVENUE</h2>
                                     </div>
