@@ -1,0 +1,23 @@
+
+table, th, tr, td{
+    border: 1px solid black;
+}
+  
+  table {
+    border-collapse: collapse;
+    border-radius: 20px; 
+    width: 95%;
+    margin: 25px;
+}
+  
+  th {
+      height: 50px;
+      background-color:#8ea5c4;
+      color: black;
+
+  }
+
+td{
+    height: 85px;
+}
+
