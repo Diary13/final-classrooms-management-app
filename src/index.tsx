@@ -3,10 +3,14 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import Etudiant from '../src/pages/admin/etudiant/etudiant';
+import Accueil from '../src/pages/admin/accueil/accueil';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    {/* <App /> */}
+    {/* <Etudiant/> */}
+    <Accueil/>
   </React.StrictMode>,
   document.getElementById('root')
 );
