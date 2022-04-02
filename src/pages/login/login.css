@@ -8374,7 +8374,8 @@ h1, h2, h3, h4, h5,
   box-shadow: none !important;
   font-size: 15px;
   padding: 10px 20px;
-  border-radius: 50px; }
+  border-radius: 50px; 
+}
   .btn:hover, .btn:active, .btn:focus {
     outline: none; }
   .btn.btn-primary {

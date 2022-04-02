@@ -3,8 +3,6 @@
     background-image: url('image.jpg');
     width:100%;
     height: 600px;
- 
-
 } */
 
 *, ::before,::after{
@@ -111,16 +109,14 @@ opacity:1;
 }
 .Accueil{
     /* background: linear-gradient(rgba(116, 131, 100,0.1)),url("./image.jpg"); */
-    background:linear-gradient(to bottom right, rgba(38,106,103,0.7),rgba(164,225,223,0.5)),url("../../../assets/images/image.jpg");
+    /* background:linear-gradient(to bottom right, rgba(38,106,103,0.7),rgba(164,225,223,0.5)),url("../../../assets/images/image.jpg"); */
+    background: linear-gradient(to bottom right, rgba(4, 100, 95, 0.7),rgba(120, 126, 125, 0.5)),url("../../../assets/images/image.jpg");
     min-height:100vh;
     background-size: cover;
     
 }
 .blob-1{
-    transition: all 0.2s 0.1s ease-in-out;
-    
-    
-    
+    transition: all 0.2s 0.1s ease-in-out;   
 }
 .blob-2{
     transition: all 0.2s 0.2s ease-in-out;
@@ -188,5 +184,3 @@ figure:active{
     display:block;
     transition: all 0.2s 0.3s ease-in-out;
 }
-
-
