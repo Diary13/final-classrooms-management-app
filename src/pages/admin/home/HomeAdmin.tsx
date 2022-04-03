@@ -11,7 +11,7 @@ const style: any = {
     },
     div: {
         backgroundColor: '#3CC3BE',
-        width: '210px',
+        width: '240px',
         height: '100vh'
     },
     img: {
