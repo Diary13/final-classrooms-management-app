@@ -1,0 +1,51 @@
+.top-card{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 25px;
+  height: 35%;
+  width: 47%;
+  background-color: rgb(174, 240, 230);
+}
+
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+
+.col-75 {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width: 600px) {
+  .col-25, .col-75, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+
+label {
+  padding: 12px 12px 12px 12px;
+  display: inline-block;
+  color: black;
+}
+
+
+input[type=text], select, textarea {
+  width: 75%;
+  padding: 15.5px;
+  border: 1px solid rgba(214, 213, 213, 0.768);
+  border-radius: 4px;
+  resize: vertical;
+  
+}
+
